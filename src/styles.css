@@ -1,0 +1,103 @@
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(to right, #d7e1ec, #ffffff);
+  min-height: 100vh;
+}
+
+.weather-card {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  transition: transform 0.3s ease;
+}
+
+.weather-card:hover {
+  transform: scale(1.02);
+}
+
+.weather-card h2 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.current-weather {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  font-size: 1rem;
+  color: #555;
+}
+
+.current-weather div {
+  margin: 8px;
+  padding: 6px 12px;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+}
+
+.forecast-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.forecast-day {
+  flex: 1;
+  min-width: 100px;
+  background-color: #e9f1f7;
+  border-radius: 10px;
+  padding: 10px;
+  color: #333;
+  font-size: 0.9rem;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.07);
+}
+
+.forecast-day h4 {
+  margin: 5px 0;
+  color: #2c3e50;
+}
+
+.forecast-day p {
+  margin: 3px 0;
+  font-size: 0.85rem;
+}
+.search-bar {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.search-bar input {
+  padding: 8px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 200px;
+  font-size: 1rem;
+}
+
+.search-bar button {
+  padding: 8px 16px;
+  background-color: #0077cc;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-bar button:hover {
+  background-color: #005fa3;
+}
